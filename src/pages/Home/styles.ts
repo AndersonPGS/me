@@ -11,7 +11,7 @@ export const Container = styled.div`
   flex-direction: column;
   transition: all 0.3s;
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.01);
   }
 
   img {
@@ -31,6 +31,7 @@ export const Container = styled.div`
     font-size: 2rem;
     color: white;
     font-weight: bold;
+    font-style: italic;
   }
 
   .buttons {
@@ -49,7 +50,7 @@ export const Container = styled.div`
       transition: all 0.2s;
       a {
         color: white;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         font-weight: bold;
         text-decoration: none;
       }
