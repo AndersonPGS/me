@@ -10,6 +10,7 @@ export default createGlobalStyle`
     background-color: darkslategray;
     height: 100vh;
     width: 100%;
+    font-family: 'Poppins', sans-serif;
   }
 
   #root {
