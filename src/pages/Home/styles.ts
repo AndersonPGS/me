@@ -33,23 +33,32 @@ export const Container = styled.div`
     font-weight: bold;
   }
 
-  button {
-    border: none;
-    border-radius: 15px;
-    height: 50px;
-    width: 100px;
-    margin: 10px;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
-    transition: all 0.2s;
-
-    &:hover {
-      transform: scale(1.2);
-      background-color: rgba(0, 0, 0, 0.4);
-      border-radius: 10px;
-      cursor: pointer;
+  .buttons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    .button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 15px;
+      height: 50px;
+      width: 25%;
+      margin: 10px;
+      background-color: rgba(0, 0, 0, 0.7);
+      transition: all 0.2s;
+      a {
+        color: white;
+        font-size: 1.4rem;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      &:hover {
+        transform: scale(1.1);
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+        cursor: pointer;
+      }
     }
   }
 `;

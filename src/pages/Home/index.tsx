@@ -10,9 +10,15 @@ const Home: React.FC = () => {
       />
       <p>Anderson Paiva</p>
       <div className="buttons">
-        <button>Github</button>
-        <button>Linkedin</button>
-        <button>Discord</button>
+        <div className="button">
+          <a href="https://github.com/andersonpgs">Github</a>
+        </div>
+        <div className="button">
+          <a href="linkedin.com/in/andersonpgs">Linkedin</a>
+        </div>
+        <div className="button">
+          <a>Discord</a>
+        </div>
       </div>
     </Container>
   );
