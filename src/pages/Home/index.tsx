@@ -11,13 +11,13 @@ const Home: React.FC = () => {
       <p>Anderson Paiva</p>
       <div className="buttons">
         <div className="button">
-          <a href="https://github.com/andersonpgs">Github</a>
+          <a href="https://github.com/andersonpgs">GITHUB</a>
         </div>
         <div className="button">
-          <a href="linkedin.com/in/andersonpgs">Linkedin</a>
+          <a href="linkedin.com/in/andersonpgs">LINKEDIN</a>
         </div>
         <div className="button">
-          <a>Discord</a>
+          <a>DISCORD</a>
         </div>
       </div>
     </Container>
